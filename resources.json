@@ -2,19 +2,115 @@
   {
     "category": "Literary Organizations ",
     "name": "Lambda Literary",
-    "website": "",
+    "website": "https://lambdaliterary.org/",
     "description": ""
   },
   {
     "category": "Wellness",
     "name": "Black Girl in Om",
-    "website": "",
+    "website": "https://www.blackgirlinom.com/",
     "description": ""
   },
   {
     "category": "Writing Contests",
     "name": "The Hurston/Wright Foundation",
-    "website": "",
+    "website": "https://www.hurstonwright.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Black Women for Wellness",
+    "website": "https://bwwla.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Black Women's Health Imperative",
+    "website": "https://bwhi.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Foundation for Black Women's Wellness",
+    "website": "https://www.ffbww.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "California Black Women's Health Project",
+    "website": "https://www.cabwhp.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Black Girls Smile",
+    "website": "https://www.blackgirlssmile.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "The Loveland Foundation",
+    "website": "https://thelovelandfoundation.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Black Mamas Matter Alliance",
+    "website": "https://blackmamasmatter.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Center for Black Women's Wellness",
+    "website": "https://www.cbww.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Health in Her Hue",
+    "website": "https://healthinherhue.com/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "The Motherhood Group",
+    "website": "https://themotherhoodgroup.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Afiya Center",
+    "website": "https://www.theafiyacenter.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Sister Love",
+    "website": "https://www.sisterlove.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Shades of Blue Project",
+    "website": "https://www.shadesofblueproject.org/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Sister Song",
+    "website": "https://www.sistersong.net/",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Resore Forward",
+    "website": "https://restoreny.org/",
+    "description": ""
+  },
+  {
+    "category": "Writing Contests",
+    "name": "Lambda Literary Awards",
+    "website": "https://lambdaliterary.org/awards/",
     "description": ""
   }
 ]
