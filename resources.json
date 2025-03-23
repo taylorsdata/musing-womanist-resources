@@ -1,6 +1,6 @@
 [
   {
-    "category": "Literary Organizations ",
+    "category": "Literary ",
     "name": "Lambda Literary",
     "website": "https://lambdaliterary.org/",
     "description": ""
@@ -111,6 +111,30 @@
     "category": "Writing Contests",
     "name": "Lambda Literary Awards",
     "website": "https://lambdaliterary.org/awards/",
+    "description": ""
+  },
+  {
+    "category": "Report",
+    "name": "Reproductive Justice Policy Agenda",
+    "website": "https://intersectionsofourlives.org/wp-content/uploads/2024/12/Intersections-RJ-Policy-Agenda-2025_FINAL.pdf",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "National Black Women's Reproductive Justice Agenda",
+    "website": "https://blackrj.org/",
+    "description": ""
+  },
+  {
+    "category": "Report",
+    "name": "Reproductive Justice Briefing Book",
+    "website": "https://www.protectchoice.org/downloads/Reproductive%20Justice%20Briefing%20Book.pdf",
+    "description": ""
+  },
+  {
+    "category": "Wellness",
+    "name": "Common Wealth Fund",
+    "website": "https://www.commonwealthfund.org/",
     "description": ""
   }
 ]
