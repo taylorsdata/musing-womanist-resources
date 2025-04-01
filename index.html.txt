@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musing Womanist Resource Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffb6c1;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 150px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #d81b60;
+            font-weight: bold;
+        }
+        .section {
+            padding: 50px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #d81b60;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #ad1457;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #ffb6c1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Musing Womanist Logo" class="logo">
+        <h1>Musing Womanist Resource Hub</h1>
+        <p>A curated collection of eBooks, magazines, and creative resources for writers.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#ebooks">📚 eBooks</a></li>
+            <li><a href="#magazine">📰 Digital Magazine</a></li>
+            <li><a href="#resources">✍️ Writing Resources</a></li>
+            <li><a href="#downloads">🎨 Digital Downloads</a></li>
+        </ul>
+    </nav>
+    
+    <section id="ebooks" class="section">
+        <h2>📚 eBooks</h2>
+        <p>Explore our collection of eBooks on creativity, writing, and storytelling.</p>
+        <a href="ebooks/" class="btn">Browse eBooks</a>
+    </section>
+    
+    <section id="magazine" class="section">
+        <h2>📰 Digital Magazine</h2>
+        <p>Read the latest issues of Musing Womanist Magazine.</p>
+        <a href="digital-magazine/issues/" class="btn">View Issues</a>
+    </section>
+    
+    <section id="resources" class="section">
+        <h2>✍️ Writing Resources</h2>
+        <p>Discover tools, guides, and prompts for writers.</p>
+        <a href="creative-resources/" class="btn">Explore Resources</a>
+    </section>
+    
+    <section id="downloads" class="section">
+        <h2>🎨 Digital Downloads</h2>
+        <p>Access vision board templates, journal pages, and creative assets.</p>
+        <a href="digital-downloads/" class="btn">Get Downloads</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Musing Womanist. All rights reserved.</p>
+    </footer>
+</body>
+</html>
