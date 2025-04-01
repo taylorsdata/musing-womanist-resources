@@ -38,7 +38,7 @@ A collection of design assets and printables:
 - Follow for updates as I add new issues, guides, and creative tools.
 
 ## 📬 Stay Connected
-- 🌍 Visit [Musing Womanist]([https://musingwomanist.com/])
+- 🌍 Visit [Musing Womanist](https://musingwomanist.com/)
 - ✉️ [Subscribe to my newsletter](https://muusingwomanist.substack.com/)
 - ⭐ Star this repo to stay updated
 
