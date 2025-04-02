@@ -50,7 +50,8 @@
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
-            transition: background 0.3s;
+            cursor: not-allowed; /* Indicates it's disabled */
+            opacity: 0.6; /* Makes it look inactive */
         }
         .btn:hover {
             background-color: #ad1457;
@@ -66,6 +67,7 @@
     <header>
         <img src="logo.png" alt="Musing Womanist Logo" class="logo">
         <h1>Musing Womanist Resource Hub</h1>
+            <p><strong>COMING SOON</strong></p>
         <p>A curated collection of eBooks, magazines, and creative resources for writers.</p>
     </header>
     
@@ -81,25 +83,25 @@
     <section id="ebooks" class="section">
         <h2>📚 eBooks</h2>
         <p>Explore our collection of eBooks on creativity, writing, and storytelling.</p>
-        <a href="ebooks/" class="btn">Browse eBooks</a>
+       <button class="btn" disabled>Rolling Out Soon</button>
     </section>
     
     <section id="magazine" class="section">
         <h2>📰 Digital Magazine</h2>
         <p>Read the latest issues of Musing Womanist Magazine.</p>
-        <a href="digital-magazine/issues/" class="btn">View Issues</a>
+       <button class="btn" disabled>Preparing For Launch</button>
     </section>
     
     <section id="resources" class="section">
         <h2>✍️ Writing Resources</h2>
         <p>Discover literary oppurtunities, non-profits and events.</p>
-        <a href="creative-resources/" class="btn">Explore Resources</a>
+          <button class="btn" disabled>Under Construction</button>
     </section>
     
     <section id="downloads" class="section">
         <h2>🎨 Digital Downloads</h2>
         <p>Access vision board templates, journal pages, and creative assets.</p>
-        <a href="digital-downloads/" class="btn">Get Downloads</a>
+            <button class="btn" disabled>In Development</button>
     </section>
     
     <footer>
