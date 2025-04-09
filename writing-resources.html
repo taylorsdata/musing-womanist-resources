@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Writing Resources – Musing Womanist</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f5;
+      padding: 2rem;
+      color: #333;
+    }
+    h1 {
+      color: #d17b8f;
+      font-size: 2.2rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1.5rem;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    th, td {
+      border: 1px solid #f1c6d3;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background-color: #fbe0e9;
+    }
+    a {
+      color: #d17b8f;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>📝 Writing Resources</h1>
+  <p>Curated list of nonprofits, literary organizations, and more from the <strong>Musing Womanist</strong> resource hub. Automatically updated from a live Google Sheet!</p>
+
+  <table id="resourceTable">Loading resources...</table>
+
+  <script>
+    async function loadCSV() {
+      const response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vTj7jErI3FqRiKaBqRRPiEtPKjExPfNTNd7le4nt-QUz7w2tHRzcpItfh3HZgb1j1xG0ZsDOzV-UFiS/pub?output=csv');
+      const data = await response.text();
+      const rows = data.split('\n').map(row => row.split(','));
+
+      let html = '<tr>';
+      rows[0].forEach(header => html += `<th>${header.trim()}</th>`);
+      html += '</tr>';
+
+      for (let i = 1; i < rows.length; i++) {
+        html += '<tr>';
+        rows[i].forEach((cell, idx) => {
+          // Make URLs clickable if in the last column
+          if (idx === rows[i].length - 1 && cell.includes("http")) {
+            html += `<td><a href="${cell.trim()}" target="_blank">Visit</a></td>`;
+          } else {
+            html += `<td>${cell.trim()}</td>`;
+          }
+        });
+        html += '</tr>';
+      }
+
+      document.getElementById('resourceTable').innerHTML = html;
+    }
+
+    loadCSV();
+  </script>
+</body>
+</html>
