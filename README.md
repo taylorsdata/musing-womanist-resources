@@ -19,9 +19,9 @@ Practical tools for writing, storytelling, and content creation:
 
 📝 **Writing Prompts & Exercises**
 
-📆 **Editorial Calendar & Content Planning Templates**
+📆 **Literary Events**
 
-🖊️ **Publishing & Submission Guides**
+🖊️ **Literary Organizations**
 
 ### 🎨 Digital Downloads for Creatives
 A collection of design assets and printables:
