@@ -685,8 +685,44 @@
   },
   {
     "category": "Literary ",
-    "name": "",
+    "name": "The Malhat Review Creative Non-Fiction Contest",
+    "website": "https://malahatreview.ca/contests/creative_non-fiction_prize/info.html",
+    "description": ""
+  },
+  {
+    "category": "Writing Contests",
+    "name": "The New Quarterly Writing Contests",
+    "website": "https://tnq.ca/tnq-contest-page/",
+    "description": ""
+  },
+  {
+    "category": "Literary ",
+    "name": "The New Quarterly ",
     "website": "",
+    "description": ""
+  },
+  {
+    "category": "Literary ",
+    "name": "Matter Monthly",
+    "website": "https://mattermonthly.com/",
+    "description": ""
+  },
+  {
+    "category": "Writing Contests",
+    "name": "Riddle Fence Contests",
+    "website": "https://riddlefence.submittable.com/submit",
+    "description": ""
+  },
+  {
+    "category": "Literary ",
+    "name": "Room Magazine",
+    "website": "https://roommagazine.com/",
+    "description": ""
+  },
+  {
+    "category": "Literary ",
+    "name": "PRISM Magazine",
+    "website": "https://prismmagazine.ca/",
     "description": ""
   }
 ]
