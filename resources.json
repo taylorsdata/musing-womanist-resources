@@ -724,5 +724,11 @@
     "name": "PRISM Magazine",
     "website": "https://prismmagazine.ca/",
     "description": ""
+  },
+  {
+    "category": "Literary ",
+    "name": "Tin House Workshop",
+    "website": "https://tinhouse.com/workshop/",
+    "description": ""
   }
 ]
