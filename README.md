@@ -1,7 +1,7 @@
 # 📖 Musing Womanist Digital Library
 A curated collection of eBooks, digital magazine issues, and creative resources for writers and artists.
 
-Welcome to my digital resource hub! This repository stores my eBooks, digital magazine content, and tools for writers and creatives. Whether you're looking for inspiration, guidance, or practical tools, you'll find valuable resources here.
+Welcome to my digital resource hub! This repository stores my eBooks, digital magazine content, and tools for writers and creatives. This is the VERY EARLY stages of this project, so there will be missing and incomplete parts. PLEASE bare with me, as I am learning new coding languages!
 
 ## 📌 Explore the Repository
 
